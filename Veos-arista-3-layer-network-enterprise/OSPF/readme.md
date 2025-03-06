@@ -132,6 +132,15 @@ show ip ospf database
 show ip route ospf
 ```
 
+- Core show
+![Verificacion](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-ospf-1.png)
+![Verificacion](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-ospf-2.png)
+
+- Distribution show
+![Verificacion](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-ospf-4.png)
+![Verificacion](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-ospf-3.png)
+
+
 ## Consideraciones de diseño
 
 1. **Estructura multi-área**: Se implementa OSPF con múltiples áreas para:
