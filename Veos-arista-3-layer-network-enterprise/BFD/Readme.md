@@ -129,18 +129,7 @@ show bfd counters
 show ip ospf neighbor
 ```
 
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
-![BFD-show]()
+![BFD-show](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-bfd-1.png)
 
 ## Consideraciones de diseño
 
