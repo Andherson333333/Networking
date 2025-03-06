@@ -368,6 +368,13 @@ show interface status
 show ip interface brief
 ```
 
+- Distribution-1 y 2
+![VLANs-show](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-vlans-1.png)
+
+- Sw-1 ,Sw2,Sw3
+![VLANs-show](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-vlans-2.png)
+![VLANs-show](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-vlans-3.png)
+
 ## Consideraciones de diseño
 
 1. **Segmentación por departamentos**:
