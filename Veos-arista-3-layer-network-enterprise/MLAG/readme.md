@@ -6,7 +6,7 @@ Multi-Chassis Link Aggregation (MLAG) es una tecnología que permite la agregaci
 
 MLAG permite que los switches de acceso vean a los dos switches de distribución como un único dispositivo lógico, permitiendo así utilizar todos los enlaces simultáneamente sin crear bucles en la red.
 
-![Diagrama MLAG](../imagenes/mlag_diagram.png)
+![Diagrama MLAG](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-mlag-topologi-1.png)
 
 ## Componentes principales del MLAG
 
