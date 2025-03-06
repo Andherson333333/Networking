@@ -6,7 +6,7 @@ Este repositorio contiene la configuración y documentación para una arquitectu
 
 La topología implementa un diseño de red de campus en tres capas (Core, Distribución, Acceso) con redundancia completa y segmentación de tráfico por departamentos.
 
-![Network Topology Diagram](./imagenes/topologia.png)
+![Network Topology Diagram](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-1.png)
 
 ## Componentes
 
