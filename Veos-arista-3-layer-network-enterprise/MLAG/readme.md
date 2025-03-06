@@ -193,6 +193,9 @@ show mlag interfaces
 show port-channel summary
 ```
 
+![Diagrama MLAG]()
+![Diagrama MLAG]()
+
 ## Consideraciones de diseño
 
 1. **Peer Link**: Se utiliza un port-channel con dos interfaces físicas para el peer-link, proporcionando redundancia y mayor ancho de banda.
