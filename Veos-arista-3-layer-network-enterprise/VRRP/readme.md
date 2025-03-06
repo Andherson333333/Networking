@@ -88,6 +88,8 @@ show vrrp brief
 show vrrp interface vlanX
 ```
 
+![Diagrama VRRP](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-vrrp-1.png)
+
 ## Consideraciones de diseño
 
 1. **Asignación de prioridades**:
