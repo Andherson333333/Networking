@@ -1,6 +1,34 @@
-Aquí tienes la información separada en tres tablas distintas para mayor claridad:
+# Diseño de Red Empresarial Redundante
 
-# Direccionamiento IP por Dispositivo
+Este repositorio contiene la configuración y documentación para una arquitectura de red empresarial completamente redundante basada en equipos Arista (EOS).
+
+## Descripción general
+
+La topología implementa un diseño de red de campus en tres capas (Core, Distribución, Acceso) con redundancia completa y segmentación de tráfico por departamentos.
+
+![Network Topology Diagram]
+
+## Componentes
+
+### Dispositivos
+- 2 Routers Core (CORE-1, CORE-2)
+- 2 Switches de Distribución (DISTRIBUTION-1, DISTRIBUTION-2)
+- 3 Switches de Acceso (SW-1, SW-2, SW-3)
+- 2 Simuladores de ISP (ISP-1, ISP-2)
+
+### Requisitos de hardware y software
+
+- Arista vEOS 4.29.2F 
+- 
+
+### Protocolos implementados
+- **OSPF**: Enrutamiento dinámico para routing interno
+- **MLAG**: Agregación de enlaces multichassis entre distribución y acceso
+- **VRRP**: Redundancia de gateway para VLANs
+- **BFD**: Detección rápida de fallos en enlaces
+- **Spanning-Tree**: MSTP para redundancia en capa 2
+
+### Direccionamiento IP por Dispositivo
 
 ## Tabla 1: ISP Layer
 
@@ -59,3 +87,57 @@ Aquí tienes la información separada en tres tablas distintas para mayor clarid
 | SW-2 | Vlan40 | Ventas | 172.16.40.4 | 255.255.255.0 |
 | SW-3 | Vlan50 | Producción | 172.16.50.4 | 255.255.255.0 |
 | SW-3 | Vlan60 | Desarrollo | 172.16.60.4 | 255.255.255.0 |
+
+## Estructura del repositorio
+
+
+## Instalación y configuración
+
+
+## Protocolos
+
+### OSPF
+- **Áreas**:
+  - Area 0: Core y enlaces de backbone
+  - Area 0.0.0.1: VLANs 10 y 20
+  - Area 0.0.0.2: VLANs 30 y 40
+  - Area 0.0.0.3: VLANs 50 y 60
+
+  - **Routers ID**:
+  - CORE-1: 1.1.1.1
+  - CORE-2: 2.2.2.2
+  - DISTRIBUTION-1: 3.3.3.3
+  - DISTRIBUTION-2: 4.4.4.4
+
+### MLAG
+- **Dominio**: DISTRIBUTION
+- **Peer Link**: Port-Channel100 (2x10G)
+- **Peer VLAN**: 4094
+- **Peer IPs**:
+  - DISTRIBUTION-1: 172.16.253.17/30
+  - DISTRIBUTION-2: 172.16.253.18/30
+
+### VRRP
+- Configurado en las VLANs 10-60
+- DISTRIBUTION-1 como router primario (prioridad 110)
+- DISTRIBUTION-2 como router secundario (prioridad 90)
+- VIP configurado como .1 en cada VLAN
+  
+### BFD
+- Habilitado en todas las interfaces OSPF
+- Interval: 500ms, min_rx: 500ms, multiplier: 5
+- Interval en VLANs: 100ms, min_rx: 100ms, multiplier: 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
