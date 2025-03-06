@@ -6,7 +6,7 @@ Bidirectional Forwarding Detection (BFD) es un protocolo ligero diseñado para d
 
 En esta implementación, BFD se utiliza junto con OSPF para proporcionar detección rápida de fallos en todas las conexiones críticas.
 
-![Diagrama BFD](../imagenes/bfd_diagram.png)
+![Diagrama BFD](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-bfd-topologi-1.png)
 
 ## Principio de funcionamiento
 
