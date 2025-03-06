@@ -26,13 +26,13 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 - **[VRRP](./VRRP/readme.md)**: Redundancia de gateway para VLANs
 - **[BFD](./BFD/Readme.md)**: Detección rápida de fallos en enlaces
 - **[Spanning-Tree](./Spanning-Tree/readme.md)**: MSTP para redundancia en capa 2
-- **[VLAN](./VLAN/readme.md)**: Enrutamiento dinámico para routing interno
+- **[VLAN](./VLAN/readme.md)**: redes lógicas aisladas
 
 
 ## Estructura del repositorio
 
 - **[Topologia/](./Topologia/readme.md)** - Información detallada de la topología, tablas de direccionamiento IP y diagrama físico/lógico
-- **[VLAN](./VLAN/readme.md)**: Enrutamiento dinámico para routing interno
+- **[VLAN](./VLAN/readme.md)**: redes lógicas aisladas
 - **[Spanning-Tree/](./Spanning-Tree/readme.md)** - Configuración de STP/MSTP
 - **[VRRP/](./VRRP/readme.md)** - Configuración de Virtual Router Redundancy Protocol
 - **[MLAG/](./MLAG/readme.md)** - Configuración de Multi-Chassis Link Aggregation
