@@ -28,10 +28,6 @@ La arquitectura de red implementada sigue el modelo de tres niveles (Three-Tier)
 
 ![Network Topology Diagram](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-1.png)
 
-## Diagrama lógico
-
-[Imagen del diagrama lógico]
-
 ## Direccionamiento IP por Dispositivo
 
 ### Tabla 1: ISP Layer
