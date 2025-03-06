@@ -30,7 +30,7 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 
 
 ## Estructura del repositorio
-
+```
 /
 ├── Topologia/          # Información detallada de la topología y direccionamiento IP
 ├── VLAN/               # Configuración de VLANs por departamento
@@ -50,7 +50,7 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 │   ├── ISP-1.conf
 │   └── ISP-2.conf
 ├── imagenes/           # Diagramas y capturas de pantalla
-
+```
 ## Instalación y configuración
 
 1. Importe los archivos de configuración en su entorno EVE-NG
