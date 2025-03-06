@@ -45,7 +45,14 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 1. Importe los archivos de configuración en su entorno EVE-NG
 2. Asegúrese de utilizar la versión correcta de Arista vEOS-lab (4.29.2F)
 3. Implemente la topología siguiendo el diagrama proporcionado
-4. Aplique las configuraciones para cada dispositivo según la documentación
+    - 1 topologia
+    - 2 Vlan
+    - Vrrp
+    - Mlag
+    - ospf
+    - bfd
+    - monitor
+5. Aplique las configuraciones para cada dispositivo según la documentación
 
 ## Características principales
 
