@@ -26,7 +26,7 @@ La arquitectura de red implementada sigue el modelo de tres niveles (Three-Tier)
 
 ## Diagrama físico
 
-[Imagen del diagrama físico]
+![Network Topology Diagram](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-1.png)
 
 ## Diagrama lógico
 
