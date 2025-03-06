@@ -53,16 +53,6 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 - Redundancia de gateway mediante VRRP
 - Distribución de rutas mediante OSPF
 
-## Contribuir
-
-Si desea contribuir a este proyecto, por favor:
-1. Haga un fork del repositorio
-2. Cree una rama para su función (`git checkout -b feature/nueva-funcion`)
-3. Realice sus cambios y haga commit (`git commit -am 'Añade nueva función'`)
-4. Envíe a la rama (`git push origin feature/nueva-funcion`)
-5. Abra un Pull Request
-
-
 
 
 
