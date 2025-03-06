@@ -31,14 +31,25 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 
 ## Estructura del repositorio
 
-- **[Topologia/](./Topologia/readme.md)** - Información detallada de la topología, tablas de direccionamiento IP y diagrama físico/lógico
-- **[VLAN](./VLAN/readme.md)**: redes lógicas aisladas
-- **[Spanning-Tree/](./Spanning-Tree/readme.md)** - Configuración de STP/MSTP
-- **[VRRP/](./VRRP/readme.md)** - Configuración de Virtual Router Redundancy Protocol
-- **[MLAG/](./MLAG/readme.md)** - Configuración de Multi-Chassis Link Aggregation
-- **[OSPF/](./OSPF/readme.md)** - Configuración del protocolo OSPF y distribución de áreas
-- **[BFD/](./BFD/Readme.md)** - Configuración de Bidirectional Forwarding Detection
-- **[imagenes/](./imagenes/)** - Diagramas y capturas de pantalla
+/
+├── Topologia/          # Información detallada de la topología y direccionamiento IP
+├── VLAN/               # Configuración de VLANs por departamento
+├── Spanning-Tree/      # Configuración de STP/MSTP
+├── MLAG/               # Configuración de Multi-Chassis Link Aggregation
+├── VRRP/               # Configuración de Virtual Router Redundancy Protocol
+├── OSPF/               # Configuración de OSPF y distribución de áreas
+├── BFD/                # Configuración de Bidirectional Forwarding Detection
+├── configs/            # Archivos de configuración por dispositivo
+│   ├── CORE-1.conf
+│   ├── CORE-2.conf
+│   ├── DISTRIBUTION-1.conf
+│   ├── DISTRIBUTION-2.conf
+│   ├── SW-1.conf
+│   ├── SW-2.conf
+│   ├── SW-3.conf
+│   ├── ISP-1.conf
+│   └── ISP-2.conf
+├── imagenes/           # Diagramas y capturas de pantalla
 
 ## Instalación y configuración
 
