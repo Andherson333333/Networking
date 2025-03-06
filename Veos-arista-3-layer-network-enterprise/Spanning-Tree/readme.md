@@ -78,6 +78,14 @@ show spanning-tree mst detail
 show spanning-tree interface
 show spanning-tree blockedports
 ```
+Core-1 y 2
+![Diagrama Spanning Tree](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-stp-3.png)
+
+Distribution-1 y 2
+![Diagrama Spanning Tree](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-stp-2.png)
+
+Sw-1 y Sw-2
+![Diagrama Spanning Tree](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-stp-3.png)
 
 ## Consideraciones de diseño
 
