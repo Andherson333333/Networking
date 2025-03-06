@@ -1,20 +1,27 @@
-# Tabla de direccionamiento IP por capas de red
+Aquí tienes la información separada en tres tablas distintas para mayor claridad:
+
+# Tabla 1: WAN y Core Layer
 
 | Red | Uso | Dirección de red | Máscara | Primera IP utilizable | Última IP utilizable | Broadcast | # IPs |
 |-----|-----|------------------|---------|----------------------|----------------------|-----------|-------|
-| **WAN - Conexiones ISP** |
 | CORE-1 a ISP-1 | Conexión WAN | 203.0.113.0/30 | 255.255.255.252 | 203.0.113.1 | 203.0.113.2 | 203.0.113.3 | 2 |
 | CORE-2 a ISP-2 | Conexión WAN | 198.51.100.0/30 | 255.255.255.252 | 198.51.100.1 | 198.51.100.2 | 198.51.100.3 | 2 |
-| **Core Layer** |
 | CORE-1 a CORE-2 | Core Link | 172.16.254.8/30 | 255.255.255.252 | 172.16.254.9 | 172.16.254.10 | 172.16.254.11 | 2 |
-| **Core-Distribution Layer** |
+
+# Tabla 2: Core-Distribution Layer
+
+| Red | Uso | Dirección de red | Máscara | Primera IP utilizable | Última IP utilizable | Broadcast | # IPs |
+|-----|-----|------------------|---------|----------------------|----------------------|-----------|-------|
 | CORE-1 a DIST-1 | Core-Dist Link | 172.16.253.0/30 | 255.255.255.252 | 172.16.253.1 | 172.16.253.2 | 172.16.253.3 | 2 |
 | CORE-1 a DIST-2 | Core-Dist Link | 172.16.253.8/30 | 255.255.255.252 | 172.16.253.9 | 172.16.253.10 | 172.16.253.11 | 2 |
 | CORE-2 a DIST-1 | Core-Dist Link | 172.16.253.4/30 | 255.255.255.252 | 172.16.253.5 | 172.16.253.6 | 172.16.253.7 | 2 |
 | CORE-2 a DIST-2 | Core-Dist Link | 172.16.253.12/30 | 255.255.255.252 | 172.16.253.13 | 172.16.253.14 | 172.16.253.15 | 2 |
-| **Distribution Layer** |
 | MLAG PEER | MLAG Peering | 172.16.253.16/30 | 255.255.255.252 | 172.16.253.17 | 172.16.253.18 | 172.16.253.19 | 2 |
-| **Access Layer - VLANs** |
+
+# Tabla 3: Access Layer - VLANs
+
+| Red | Uso | Dirección de red | Máscara | Primera IP utilizable | Última IP utilizable | Broadcast | # IPs |
+|-----|-----|------------------|---------|----------------------|----------------------|-----------|-------|
 | VLAN 10 | Administración | 172.16.10.0/24 | 255.255.255.0 | 172.16.10.1 | 172.16.10.254 | 172.16.10.255 | 254 |
 | VLAN 20 | Finanzas | 172.16.20.0/24 | 255.255.255.0 | 172.16.20.1 | 172.16.20.254 | 172.16.20.255 | 254 |
 | VLAN 30 | RRHH | 172.16.30.0/24 | 255.255.255.0 | 172.16.30.1 | 172.16.30.254 | 172.16.30.255 | 254 |
