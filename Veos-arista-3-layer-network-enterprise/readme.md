@@ -32,11 +32,12 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 ## Estructura del repositorio
 
 - **[Topologia/](./Topologia/readme.md)** - Información detallada de la topología, tablas de direccionamiento IP y diagrama físico/lógico
-- **[OSPF/](./OSPF/readme.md)** - Configuración del protocolo OSPF y distribución de áreas
-- **[MLAG/](./MLAG/readme.md)** - Configuración de Multi-Chassis Link Aggregation
-- **[VRRP/](./VRRP/readme.md)** - Configuración de Virtual Router Redundancy Protocol
-- **[BFD/](./BFD/Readme.md)** - Configuración de Bidirectional Forwarding Detection
+- **[VLAN](./VLAN/readme.md)**: Enrutamiento dinámico para routing interno
 - **[Spanning-Tree/](./Spanning-Tree/readme.md)** - Configuración de STP/MSTP
+- **[VRRP/](./VRRP/readme.md)** - Configuración de Virtual Router Redundancy Protocol
+- **[MLAG/](./MLAG/readme.md)** - Configuración de Multi-Chassis Link Aggregation
+- **[OSPF/](./OSPF/readme.md)** - Configuración del protocolo OSPF y distribución de áreas
+- **[BFD/](./BFD/Readme.md)** - Configuración de Bidirectional Forwarding Detection
 - **[imagenes/](./imagenes/)** - Diagramas y capturas de pantalla
 
 ## Instalación y configuración
