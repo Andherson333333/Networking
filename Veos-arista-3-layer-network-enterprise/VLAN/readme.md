@@ -4,7 +4,7 @@
 
 Las Virtual LANs (VLANs) permiten segmentar una red física en múltiples redes lógicas aisladas. En esta implementación, las VLANs se utilizan para separar el tráfico por departamentos, mejorando la seguridad y el rendimiento de la red.
 
-![Diagrama VLANs](../imagenes/vlans_diagram.png)
+![Diagrama VLANs](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-vlans-topologi-1.png)
 
 ## Tabla de VLANs
 
