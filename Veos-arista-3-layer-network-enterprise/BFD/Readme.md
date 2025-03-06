@@ -129,6 +129,19 @@ show bfd counters
 show ip ospf neighbor
 ```
 
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+![BFD-show]()
+
 ## Consideraciones de diseño
 
 1. **Intervalos BFD**:
