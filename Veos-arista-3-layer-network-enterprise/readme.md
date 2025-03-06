@@ -26,6 +26,8 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 - **[VRRP](./VRRP/readme.md)**: Redundancia de gateway para VLANs
 - **[BFD](./BFD/Readme.md)**: Detección rápida de fallos en enlaces
 - **[Spanning-Tree](./Spanning-Tree/readme.md)**: MSTP para redundancia en capa 2
+- - **[VLAN](./VLAN/readme.md)**: Enrutamiento dinámico para routing interno
+
 
 ## Estructura del repositorio
 
