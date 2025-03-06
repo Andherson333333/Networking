@@ -193,8 +193,8 @@ show mlag interfaces
 show port-channel summary
 ```
 
-![Diagrama MLAG]()
-![Diagrama MLAG]()
+![Diagrama MLAG](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-mlag-1.png)
+![Diagrama MLAG](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-show-mlag-2.png)
 
 ## Consideraciones de diseño
 
