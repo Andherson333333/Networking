@@ -13,7 +13,7 @@ Open Shortest Path First (OSPF) es un protocolo de enrutamiento de estado de enl
 - **Área 0.0.0.2**: VLANs 30 y 40 (RRHH y Ventas)
 - **Área 0.0.0.3**: VLANs 50 y 60 (Producción y Desarrollo)
 
-![Diagrama de áreas OSPF](../imagenes/ospf_areas.png)
+![Diagrama de áreas OSPF](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-ospf-topologi-1.png)
 
 ## Router IDs
 
