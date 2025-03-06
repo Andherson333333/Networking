@@ -4,7 +4,7 @@
 
 Virtual Router Redundancy Protocol (VRRP) es un protocolo de redundancia que proporciona failover automático para gateways por defecto en una red IP. En esta implementación, VRRP se utiliza para proporcionar redundancia de gateway para los usuarios finales, permitiendo que los switches de distribución compartan direcciones IP virtuales que actúan como gateway predeterminado para cada VLAN.
 
-![Diagrama VRRP](../imagenes/vrrp_diagram.png)
+![Diagrama VRRP](https://github.com/Andherson333333/Networking/blob/main/Veos-arista-3-layer-network-enterprise/imagenes/Arista-veos-vrrp-topologi-1.png)
 
 ## Principio de funcionamiento
 
