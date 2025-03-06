@@ -18,8 +18,8 @@ La topología implementa un diseño de red de campus en tres capas (Core, Distri
 
 ### Requisitos de hardware y software
 
-- Arista vEOS 4.29.2F 
-- 
+- Eve-ng
+- Arista vEOS-lab
 
 ### Protocolos implementados
 - **OSPF**: Enrutamiento dinámico para routing interno
